@@ -1,21 +1,21 @@
 # Material Sharing Card 
 
-This was originaly a Dribbble post by [Christophe Kerebel](https://material.uplabs.com/users/chriskere/posts). You can check out his Dribbble post [here](https://material.uplabs.com/posts/personal-social-card-material-design-animation).
+This was originaly a Dribbble post by [Christophe Kerebel](https://material.uplabs.com/iamchristruman). You can check out his Uplabs post [here](https://material.uplabs.com/posts/materialup-upvote-animation).
 
 With more and more android phones running on lollipop (API level 21+), it becomes essential for android developers to develop applications which takes full advantage of _Material Design_. This is a demo application, which runs on API Level 21 and above devices. 
 
 ## Concept
 
-![Material V Card by Christophe Kerebel](https://github.com/hiteshsahu/Material-VCard/blob/master/Art/concept.gif)
+![Material Upvote Card by Christophe Kerebel](https://github.com/hiteshsahu/Material-UpVote/blob/master/Art/concept_upvote.gif)
 
 
 ## Proof of concept
-![Material V Card by Hitesh Sahu](https://github.com/hiteshsahu/Material-VCard/blob/master/Art/demo.gif)
+![Material V Card by Hitesh Sahu](https://github.com/hiteshsahu/Material-UpVote/blob/master/Art/demo_upvote.gif)
 
 
 [Watch Youtube video of demo](https://www.youtube.com/watch?v=1MKqg0UzTKo)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1MKqg0UzTKo/0.jpg)](https://www.youtube.com/watch?v=1MKqg0UzTKo)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/l_FL0Le_mCw/0.jpg)](https://www.youtube.com/watch?v=l_FL0Le_mCw)
 
 #### Author
 **Hitesh Sahu**
