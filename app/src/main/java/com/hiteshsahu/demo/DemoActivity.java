@@ -1,12 +1,16 @@
-package com.hiteshsahu.materialupvote;
+package com.hiteshsahu.demo;
 
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hiteshsahu.materialupvotewidget.MaterialUpVoteLayout;
@@ -27,6 +31,12 @@ public class DemoActivity extends AppCompatActivity implements VoteChangeListene
         setSupportActionBar(toolbar);
         coordinatorLayout = (CoordinatorLayout) findViewById(R.id.root);
         upvoteLayout = (MaterialUpVoteLayout) findViewById(R.id.upvote_layout);
+
+        //Setup Github redirection
+        TextView forkMe = (TextView) findViewById(R.id.fork_me);
+        forkMe.setPaintFlags(forkMe.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        forkMe.setText(Html.fromHtml("<a href=https://github.com/hiteshsahu/Material-UpVote> Fork Me on Github "));
+        forkMe.setMovementMethod(LinkMovementMethod.getInstance());
 
         //set Votes
         upvoteLayout.setVoteCount(22, false);

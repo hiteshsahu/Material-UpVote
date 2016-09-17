@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.hiteshsahu.materialupvote.DemoActivity">
+    tools:context="com.hiteshsahu.demo.DemoActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -76,5 +76,19 @@
         android:layout_margin="@dimen/fab_margin"
         android:src="@android:drawable/ic_menu_rotate"
         app:elevation="4dp" />
+
+
+    <TextView
+        android:id="@+id/fork_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="5dp"
+        android:gravity="bottom|left"
+        android:text="Fork Me on Github"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </android.support.design.widget.CoordinatorLayout>

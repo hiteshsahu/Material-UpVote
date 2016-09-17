@@ -1,4 +1,4 @@
-package com.hiteshsahu.materialupvote;
+package com.hiteshsahu.demo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
