@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp">
+
+    <!--Clicking on upvote_bg will incremnet vote and show downvote_bg-->
+    <View
+        android:id="@+id/upvote_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/upvote_bg"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="22"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="30dp"></View>
+
+    <View
+        android:id="@+id/downvote_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/downvote_bg"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:visibility="gone"></View>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:foregroundGravity="center">
+
+        <com.hiteshsahu.materialupvotewidget.TriangleShapeView
+            android:id="@+id/triangle"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_above="@+id/textSwitcher"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp" />
+
+
+        <TextSwitcher
+            android:id="@+id/textSwitcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"></TextSwitcher>
+
+    </RelativeLayout>
+</FrameLayout>
