@@ -1,6 +1,6 @@
-# Material Sharing Card 
+# Material UpVote Widget 
 
-This was originaly a Dribbble post by [Christophe Kerebel](https://material.uplabs.com/iamchristruman). You can check out his Uplabs post [here](https://material.uplabs.com/posts/materialup-upvote-animation).
+This was originaly a Dribbble post by [Jan Kuijken](https://material.uplabs.com/users/kuijkenjan/posts). You can check out his Uplabs post [here](https://material.uplabs.com/posts/materialup-upvote-animation).
 
 With more and more android phones running on lollipop (API level 21+), it becomes essential for android developers to develop applications which takes full advantage of _Material Design_. This is a demo application, which runs on API Level 21 and above devices. 
 
@@ -22,4 +22,4 @@ With more and more android phones running on lollipop (API level 21+), it become
 
 #### Apache V2
 
-Material Sharing Card is released under Apache V2. See file LICENCE.
+Material UpVote Card is released under Apache V2. See file LICENCE.
