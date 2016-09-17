@@ -1,28 +1,25 @@
 # Material Sharing Card 
-**[Tutorial on my blog](http://anjithsasindran.in/blog/2015/08/15/material-sharing-card/)**
 
-**[Download APK](https://s3.amazonaws.com/anjithsasindran.in/blog/assets/2015-08-15/material_sharing_card_v1.0.0.apk)**
+This was originaly a Dribbble post by [Christophe Kerebel](https://material.uplabs.com/users/chriskere/posts). You can check out his Dribbble post [here](https://material.uplabs.com/posts/personal-social-card-material-design-animation).
 
 With more and more android phones running on lollipop (API level 21+), it becomes essential for android developers to develop applications which takes full advantage of _Material Design_. This is a demo application, which runs on API Level 21 and above devices. 
 
-![Material Sharing Card by Benjamin Berger](/demo/screenshot.gif)
+## Concept
 
-This was originaly a Dribbble post by [Benjamin Berger](https://dribbble.com/benjaminberger). You can check out his Dribbble post [here](https://dribbble.com/shots/2091522-Materials-Sharing-Card).
+![Material V Card by Christophe Kerebel](https://github.com/hiteshsahu/Material-VCard/blob/master/Art/concept.gif)
 
-[Watch Youtube video of demo](https://www.youtube.com/watch?v=_ZFpaOQg_vs)
 
-I have also written a tutorial post on my [blog](http://anjithsasindran.in/blog/2015/08/15/material-sharing-card/), which goes through
-- Building the User Interface (UI)
-- Layout in easy steps
-- Circular Reveal in action
-- Taking it a bit further
+## Proof of concept
+![Material V Card by Hitesh Sahu](https://github.com/hiteshsahu/Material-VCard/blob/master/Art/demo.gif)
+
+
+[Watch Youtube video of demo](https://www.youtube.com/watch?v=1MKqg0UzTKo)
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1MKqg0UzTKo/0.jpg)](https://www.youtube.com/watch?v=1MKqg0UzTKo)
 
 #### Author
-**Anjith Sasindran**
-- https://twitter.com/anjithsasindran
-- https://instagram.com/anjithsasindran/
-- https://github.com/4k3R
+**Hitesh Sahu**
 
-#### MIT License
+#### Apache V2
 
-Material Sharing Card is released under MIT Licence. See file LICENCE.
+Material Sharing Card is released under Apache V2. See file LICENCE.
